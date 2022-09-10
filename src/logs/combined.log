@@ -254,3 +254,8 @@
     '    at Module.load (node:internal/modules/cjs/loader:975:32)\n' +
     '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)'
 }
+{
+  message: 'Server running on port: 8080',
+  level: 'info',
+  timestamp: '2022-09-10T07:52:59.284Z'
+}
