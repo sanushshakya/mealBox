@@ -14,8 +14,10 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "g": "^2.0.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.4",
+    "vercel": "^19.1.2",
     "winston": "^3.8.1"
   },
   "devDependencies": {

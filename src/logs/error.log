@@ -1,0 +1,21 @@
+{
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 8080,
+  level: 'error',
+  timestamp: '2022-09-09T12:44:31.280Z',
+  message: 'listen EADDRINUSE: address already in use :::8080',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8080\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n' +
+    '    at listenInCluster (node:net:1378:12)\n' +
+    '    at Server.listen (node:net:1465:7)\n' +
+    '    at Function.listen (/Users/sushil/Desktop/myProjects/mealBox/node_modules/express/lib/application.js:635:24)\n' +
+    '    at init (/Users/sushil/Desktop/myProjects/mealBox/src/index.js:17:13)\n' +
+    '    at Object.<anonymous> (/Users/sushil/Desktop/myProjects/mealBox/src/index.js:25:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:975:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)'
+}
