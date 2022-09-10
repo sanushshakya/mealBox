@@ -11,6 +11,7 @@ const init = async () => {
         app.use(bodyParser.urlencoded({ extended: false }));
         app.use(bodyParser.json());
         app.use(routes);
+        app.use(express.json());
         app.get("/", (_, res) => res.status(200).json({ message: "Backend Active!" }));
         // catch 404 
         app.use((_, res) => res.status(404).json({ message: "Route not found!" }));
