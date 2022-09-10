@@ -259,3 +259,13 @@
   level: 'info',
   timestamp: '2022-09-10T07:52:59.284Z'
 }
+{
+  message: 'Server running on port: 8080',
+  level: 'info',
+  timestamp: '2022-09-10T08:04:50.635Z'
+}
+{
+  message: 'Server running on port: 8080',
+  level: 'info',
+  timestamp: '2022-09-10T08:04:53.772Z'
+}
