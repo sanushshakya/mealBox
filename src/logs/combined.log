@@ -8,3 +8,8 @@
   level: 'info',
   timestamp: '2022-09-13T18:03:37.991Z'
 }
+{
+  message: 'Server running on port: 8080',
+  level: 'info',
+  timestamp: '2022-09-13T18:14:02.549Z'
+}
