@@ -1,5 +1,5 @@
 const {admins} = require('../models');
-const {hashPasswordAsync, comparePasswordAsync} = require('../utils/bcrypt.utils')
+const { hashPasswordSync, comparePasswordSync } = require('../utils/bcrypt.utils')
 
 const getAdmin = async (req, res) => {
     try{
@@ -17,7 +17,7 @@ const createAdmin = async (req, res) => {
             "message":"Please set your password."
         });
     }
-    const hashPassword = await hashPasswordAsync(password);
+    const hashPassword = await hashPasswordSync(password);
     try{
         const newAdmin = await admins.create({
             name: name,
