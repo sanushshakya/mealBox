@@ -27,13 +27,5 @@
   },
   "devDependencies": {
     "sequelize-cli": "^6.4.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sanushshakya/mealBox.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sanushshakya/mealBox/issues"
-  },
-  "homepage": "https://github.com/sanushshakya/mealBox#readme"
+  }
 }
